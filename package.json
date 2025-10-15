@@ -1,0 +1,24 @@
+{
+  "name": "videotube-backendproject",
+  "version": "1.0.0",
+  "description": "backend project ist",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "homepage": "https://github.com/SnobbarJaffer-123/VideoTube-backendProject#readme",
+  "bugs": {
+    "url": "https://github.com/SnobbarJaffer-123/VideoTube-backendProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnobbarJaffer-123/VideoTube-backendProject.git"
+  },
+  "license": "ISC",
+  "author": "Snobbar Jaffer",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
