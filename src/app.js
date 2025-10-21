@@ -13,6 +13,7 @@ app.use(cors({
     app.use(express.json({limit:"16kb"}));//for parsing cookies from requests
     app.use(express.urlencoded({extended:true}));//for parsing urlencoded data from requests
     app.use(express.static("public"));//for serving static files from public directory
-    app.use(cookieParser());//for accessing cookies from requests
+    app.use(cookieParser());//for accessing cookies from browser to perform CRUD operations like get /set/delete cokkies
+    
 
 export {app};
