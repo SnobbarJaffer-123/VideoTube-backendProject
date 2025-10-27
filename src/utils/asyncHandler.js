@@ -1,6 +1,6 @@
 //using promises
 const asyncHandler=(requestHandler)=>{
-    (req,res,next)=>{ //next is (a flag )used to pass the error to the error handling middleware
+    return (req,res,next)=>{ //next is (a flag )used to pass the error to the error handling middleware
         Promise.resolve(requestHandler(req,res,next)).catch((error)=>next(error) )
     }
 }
